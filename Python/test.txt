@@ -1,0 +1,12 @@
+Welcome to Data Science.
+In order to become the Data Scientist, I should aquire the following skills.
+1. Python
+Ref: Video Tutorials
+2. Problem Solving
+Ref: Online Puzzles
+3. SQL
+Ref: Hands on
+4. Machine Learning
+Ref: Udemy
+5. Statistics
+Ref: Khan Academy

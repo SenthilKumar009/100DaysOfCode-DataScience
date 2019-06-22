@@ -12,6 +12,7 @@ data = [1,2,3,4,5]
 for i in event_list:
     print(i) '''
 
+#the below function will convert the given chareturn the specified char to the
 def char_range(char1, char2):
     for char in range(ord(char1), ord(char2)+1):
         yield (char)

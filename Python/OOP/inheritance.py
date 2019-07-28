@@ -19,6 +19,10 @@ class Dog(Animal):
     def bark(self):
         print('Woof Woof!!!')
 
+    def eat(self):
+        print('I am a dog and eating')
+
 myDog = Dog()
 myDog.who_am_i()
 myDog.bark()
+myDog.eat()

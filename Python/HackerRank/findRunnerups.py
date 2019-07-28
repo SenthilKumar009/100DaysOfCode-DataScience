@@ -12,4 +12,4 @@ students = [x[0] for x in students if x[1] == scores[1]]
 students.sort()
 
 for s in students:
-    print s
+    print s 

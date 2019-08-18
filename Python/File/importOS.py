@@ -1,6 +1,7 @@
 import os
 
 print(os.getcwd())
+print(os.listdir(os.getcwd()))
 print(os.path.join('c', 'python'))
 print(os.path.join('home/documents/personal/resume', 'resume.txt'))
 

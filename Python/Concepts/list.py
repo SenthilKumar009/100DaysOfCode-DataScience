@@ -65,4 +65,4 @@ for i in range(len(supplies)):
 supplies.insert(1,'Buffalo')
 print(supplies)
 
-supplies.del(1)
+#supplies.del(1)

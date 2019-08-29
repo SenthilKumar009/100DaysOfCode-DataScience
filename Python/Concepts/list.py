@@ -1,3 +1,4 @@
+'''
 my_list = list(range(4,9,2))
 
 print(my_list)
@@ -50,3 +51,18 @@ y = [10,11,12]
 sum = [i+j for i in x for j in y]
 
 print(sum)
+
+spam = [1,2,3,4,5,6]
+print(spam[1:4])
+print(len(spam))
+'''
+
+supplies = ['cat', 'dog', 'cow', 'goat', 'Pig']
+ 
+for i in range(len(supplies)):
+    print('Index of '+ str(i) +' is '+supplies[i])
+
+supplies.insert(1,'Buffalo')
+print(supplies)
+
+supplies.del(1)

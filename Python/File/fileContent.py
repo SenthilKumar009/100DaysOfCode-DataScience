@@ -11,3 +11,6 @@ for fileName in os.listdir(os.getcwd()):
     totalsize += os.path.getsize(fileName)
 
 print("Total size of the Files from the directory "+os.getcwd()+":"+str(totalsize))
+
+for fileName in os.listdir(os.getcwd()):
+    print(fileName+':'+str(os.path.getsize(fileName)))

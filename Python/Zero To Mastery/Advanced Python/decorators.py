@@ -1,8 +1,26 @@
-def hello(func):
-    func()
+def my_decoratorStart(func):
+    def wrap_func(x):
+        print('**********')
+        func(x)
+        print('**********')
+    return wrap_func
 
-def great():
-    print("Helloooo!!!")
+def my_decoratorEnd(func):
+    def wrap_func():
+        print('**********')
+        func()
+        print('**********')
+    return wrap_func
 
-a = hello(great)
-print(a)
+
+@my_decoratorStart
+def hello(greetings):
+    print(greetings)
+
+
+@my_decoratorEnd
+def bye():
+    print("Byeeee!!!")
+
+hello('Welcome to Java')
+bye()

@@ -11,3 +11,8 @@ for x in range (1,9):
     myDict[x] = x * x
 
 print(myDict)
+
+#list comprehension method
+
+ans = {i: i*i for i in range(1,9)}
+print(ans)

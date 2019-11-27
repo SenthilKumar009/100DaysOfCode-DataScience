@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Change Background</title>
+</head>
+<body>
+    <button id ="red">Red</button>
+    <button id ="green">Green</button>
+    <button id="blue">Blue</button>
+    <script>
+        let body = document.querySelector('body');
+        document.querySelector('#red').onclick = function(){
+            body.style.backgroundColor = 'red';
+        };
+
+        document.querySelector('#green').onclick = function(){
+            body.style.backgroundColor = 'green';
+        };
+
+        document.querySelector('#blue').onclick = function(){
+            body.style.backgroundColor = 'blue';
+        };
+
+    </script>
+</body>
+</html>

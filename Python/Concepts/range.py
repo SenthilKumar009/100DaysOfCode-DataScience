@@ -4,8 +4,8 @@ data = [1,2,3,4,5]
 #    print(i)
 
 #print('List length:', len(data))
-#for i in range (0,len(data)):
-#    print('Value in {} index is {}'.format(i, data[i]))
+for i in range (0,len(data)):
+    print('Value in {} index is {}'.format(i, data[i]))
 
 '''event_list = range(2,10,2)
 

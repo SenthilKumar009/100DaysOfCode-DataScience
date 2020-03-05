@@ -8,3 +8,11 @@ y = 20
 print('The given value is:%i' % x)
 print('The Values are: %i %i' % (x,y))
 print('The Values are: %d %d' % (x,y))
+
+for i in range(11):
+    print('Number:{:.2f}'.format(i))
+
+import datetime
+
+my_date = datetime.datetime(2020, 2, 7, 12, 30, 45)
+print('{:%B %d, %Y}'.format(my_date))

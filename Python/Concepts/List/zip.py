@@ -8,6 +8,6 @@ my_dict = {}
 #for name, hero in zip(names, heros):
 #    my_dict[name] = hero
 
-my_dict = {name: hero for name, hero in zip(names, heros)}
+my_dict = {name: hero for name, hero in zip(names, heros) if name != 'Peter'}
 print(my_dict)
 

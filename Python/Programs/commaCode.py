@@ -4,7 +4,7 @@ joinString =''
 
 for i in range(len(spam)):
     if i == len(spam)-1:
-        joinString += spam[i]
+        joinString += 'and ' + spam[i]
     else:
         joinString += spam[i]+', '
 

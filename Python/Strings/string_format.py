@@ -16,3 +16,6 @@ import datetime
 
 my_date = datetime.datetime(2020, 2, 7, 12, 30, 45)
 print('{:%B %d, %Y}'.format(my_date))
+
+x = 'There are %d types of people' % 10
+print(x)

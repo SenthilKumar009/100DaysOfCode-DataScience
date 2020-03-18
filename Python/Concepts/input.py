@@ -1,3 +1,4 @@
+'''
 name = input("Enter the name:")
 age = int(input("Enter your Age:"))
 sex = input("Enter your Sex:")
@@ -8,3 +9,9 @@ a, b = [int(x) for x in input('Enter the numbers: ').split()]
 
 a,b,c = [int(x) for x in input("Enter the number to sum: ").split()]
 print("The Sum:", a+b+c)
+'''
+
+x = input()
+y = int(input())
+
+print(x*y)

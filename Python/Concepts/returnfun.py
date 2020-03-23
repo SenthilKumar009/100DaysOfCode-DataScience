@@ -39,7 +39,6 @@ def fun(x):
 
 fun(2)
 print(y)
-'''
 
 dct = {}
 dct['1'] = (1,2)
@@ -47,7 +46,7 @@ dct['2'] = (2,1)
 
 for x in dct.keys():
     print(dct[x][1], end='')
-'''
+
 def fun(x):
     if x % 2 == 0:
         return 1
@@ -138,9 +137,13 @@ def fun(lst):
     return lst
 
 print(fun(lst))
-'''
+
 tup = (1,2,4,8)
 tup[1] = tup[1] + tup[0]
 #print(tup)
 #tup = tup[-1]
 print(tup)
+'''
+
+#print(float("1, 3"))
+print(len('\''))

@@ -8,7 +8,7 @@ class Emplyoee:
         self.email = firstName + '.' + lastName + '@email.com'
         self.salary = salary
     
-    def fullName(self, firstName, lastName):
+    def fullName(self):
         print('{} {}'.format(self.firstName, self.lastName))
 
     def raisePay(self):
@@ -33,8 +33,8 @@ emp1 = Emplyoee('Senthil Kumar', 'Kanagaraj', 4500000)
 emp2 = Emplyoee('Senthil Kumar', 'Kanagaraj', 4500000)
 emp3 = Emplyoee('Senthil Kumar', 'Kanagaraj', 4500000)
 
-emp1.fullName(emp1.firstName, emp1.lastName)
-emp2.fullName(emp2.firstName, emp2.lastName)
+emp1.fullName()
+Emplyoee.fullName(emp2)
 
 print(Emplyoee.raise_amount)
 print(emp1.raise_amount)

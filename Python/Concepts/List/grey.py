@@ -1,8 +1,6 @@
-class test:
-   def __init__(self,a):
-       self.a=a
-
-   def display(self):
-       print(self.a)
-obj=test()
-obj.display()
+a = [3,2,1]
+b=sorted(a)
+a.insert(0,1)
+print(a)
+print(b)
+print(b[1])

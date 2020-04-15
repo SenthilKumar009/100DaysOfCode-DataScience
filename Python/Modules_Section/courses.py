@@ -6,3 +6,5 @@ courses = ['IoT', 'AI', 'Machine Learning', 'Data Science', 'Cyber Security']
 
 index = find_index(courses, 'AI')
 print(index)
+
+#Test

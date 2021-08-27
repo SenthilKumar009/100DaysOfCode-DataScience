@@ -1,1 +1,0 @@
-console.log('Get ready for your Stupid dick head!!!')
